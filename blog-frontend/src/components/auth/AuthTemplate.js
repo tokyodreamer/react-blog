@@ -43,7 +43,7 @@ import { Link } from 'react-router-dom';
          <AuthTemplateBlock>
              <WhiteBox>
                  <div className="logo-area">
-                     <Link to="/">SEOULDREAMER</Link>
+                     <Link to="/">SEOUL DREAMER</Link>
                  </div>
                  {children}
              </WhiteBox>
