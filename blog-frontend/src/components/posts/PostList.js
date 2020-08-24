@@ -49,7 +49,7 @@ const PostItem = ({ post }) => {
               <Link to={`/@${user.username}/${_id}`}>{title}</Link>
             </h2>
             <SubInfo 
-              username="username" 
+              username={user.username}
               publishedDate={publishedDate} 
             />
             <Tags tags={tags} />

@@ -40,6 +40,7 @@ const Spacer = styled.div`
 const UserInfo = styled.div`
     font-weight: 800;
     margin-left: 1rem;
+    margin-right: 1rem;
 `;
 
 const Header = ({ user, onLogout }) => {
